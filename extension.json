@@ -1,0 +1,39 @@
+{
+	"name": "BlueSpiceAdvancedMetaConnector",
+	"version": "3.0.0-beta",
+	"url": "https://help.bluespice.com/index.php/BlueSpiceAdvancedMetaConnector",
+	"author": "Patric Wirth",
+	"descriptionmsg": "bs-advancedmetaconnector-desc",
+	"type": "bluespice",
+	"license": "GPL-3.0-only",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceAdvancedMetaConnector": {
+					"className": "\\BlueSpice\\AdvancedMetaConnector\\Extension",
+					"extPath": "/BlueSpiceAdvancedMetaConnector",
+					"status": "beta",
+					"package": "BlueSpiceAdvancedMetaConnector"
+				}
+			},
+			"PermissionRegistry": {
+				"advancedmeta-edit": {
+					"type": "namespace",
+					"roles": [
+						"admin",
+						"editor"
+					]
+				}
+			}
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceAdvancedMetaConnector": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\AdvancedMetaConnector\\": "src/"
+	},
+	"manifest_version": 2
+}
