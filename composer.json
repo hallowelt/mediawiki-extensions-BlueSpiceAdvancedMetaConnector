@@ -1,5 +1,5 @@
 {
-	"name": "bluespice/advanced-meta-connector",
+	"name": "bluespice/advancedmetaconnector",
 	"type": "mediawiki-extension",
 	"description": "Connects AdvancedMeta to BlueSpice",
 	"license": "GPL-3.0-only"
